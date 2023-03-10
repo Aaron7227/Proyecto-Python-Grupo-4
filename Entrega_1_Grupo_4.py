@@ -125,7 +125,8 @@ print("Digite (2) para salir")
 if confirmacion == 1:
     print("Continuará con la compra")
 
-    else:
+else:
+    if confirmacion == 2:
         print("Canceló la compra")
 
 
