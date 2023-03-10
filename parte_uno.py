@@ -72,4 +72,61 @@ print("Lugar de residencia: ")
 print("Provincia:", provinciaComprador,"Cantón:",cantonComprador,"Distrito:", distritoComprador)
 
 
+#Nombre destinario
+#Numero de telefono
+#Numero de cedula
+print("A continuación ingrese los siguientes datos para continuar con la compra")
+
+nombreDestinatario=input("Ingrese nombre destinatario:")
+
+numeroCedulaDestinatario=input("ingrese el numero de cedula:")
+
+telefonoDestinatario = input("Ingrese su número de teléfono: ")
+
+confirmacionTelefono = input("Confirme su número de teléfono: ")
+
+while telefonoDestinatario != confirmacionTelefono:
+    print("Error, vuelva a intentarlo.")..
+    numeroTelefono = input("Ingrese su número de teléfono: ")
+    confirmacionTelefono = input("Confirme su número de teléfono: ")
+
+print("¡Continúe con su compra!")
+pesoPaquete = 0
+pesoPaquete = int(input("Ingrese el peso de su paquete en kg: "))
+
+if pesoPaquete <= 1:
+    print("El envío de su paquete es gratis.")
+else:
+
+    if pesoPaquete <= 5:
+        print("El costo de envío de su paquete es de 2500 colones.")
+    else:
+            
+        if pesoPaquete <= 10:
+            print("El costo de envío de su paquete es de 5000 colones.")
+        else: 
+        
+            if pesoPaquete <= 20:
+                print("El costo de envío de su paquete es de 10000 colones.")
+            else:
+                
+                if pesoPaquete <= 50:
+                    print("El costo de envío de su paquete es de 20000 colones.")
+                else:
+                    
+                    if pesoPaquete > 50:
+                        print("El peso ingresado es mayor al peso máximo permitido, por favor divida su paquete en paquetes más pequeños.")
+
+confirmacion = 0
+print("Desea continuar con la compra?:")
+print("Digite (1) para continuar con la compra")
+print("Digite (2) para salir")
+
+if confirmacion == 1:
+    print("Continuará con la compra")
+
+else:
+    print("Canceló la compra")
+
+
 
