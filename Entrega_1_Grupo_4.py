@@ -1,5 +1,5 @@
 # Pedir información al usuario
-correoElectronicoComercio = input("Introduzca su correo electrónico: ")
+correoElectronicoComercio = input("Introduzca el correo electrónico de su comercio: ")
 nombreComercio = input("Introduzca el nombre de su comercio: ")
 telefonoComercio = input("Introduzca el teléfono de su comercio: ")
 nombreDueno = input("Introduzca su nombre completo: ")
@@ -11,10 +11,10 @@ print("Correo electrónico: ",correoElectronicoComercio)
 print("Nombre del comercio: ",nombreComercio)
 print("Teléfono del comercio: ",telefonoComercio)
 print("Nombre del dueño: ",nombreDueno)
-print("Ubicación del local: ",ubicacionLocal)
+print("Ubicación del local: ",ubicacionLocal,"\n")
 
 #Factura electrónica
-
+print("Factura electrónica \n")
 #Preguntar por el tipo de cédula
 
 print("Digite que tipo de documento de identidad posee")
@@ -69,7 +69,7 @@ if tipoCedula == 3:
 print("Número de teléfono: ",telefonoComprador)
 print("Correo electrónico: ", correoComprador)
 print("Lugar de residencia: ")
-print("Provincia:", provinciaComprador,"Cantón:",cantonComprador,"Distrito:", distritoComprador)
+print("Provincia:", provinciaComprador,"Cantón:",cantonComprador,"Distrito:", distritoComprador, "\n")
 
 
 #Nombre destinario
@@ -86,7 +86,7 @@ telefonoDestinatario = input("Ingrese su número de teléfono: ")
 confirmacionTelefono = input("Confirme su número de teléfono: ")
 
 while telefonoDestinatario != confirmacionTelefono:
-    print("Error, vuelva a intentarlo.")..
+    print("Error, vuelva a intentarlo.")
     numeroTelefono = input("Ingrese su número de teléfono: ")
     confirmacionTelefono = input("Confirme su número de teléfono: ")
 
@@ -125,8 +125,8 @@ print("Digite (2) para salir")
 if confirmacion == 1:
     print("Continuará con la compra")
 
-else:
-    print("Canceló la compra")
+    else:
+        print("Canceló la compra")
 
 
 
