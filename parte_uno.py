@@ -35,3 +35,41 @@ if tipoCedula == 2:
 if tipoCedula == 3:
     print("Cédula juridica")
     cedulaComprador=input("Digíte su número de cédula: \n")
+
+#Preguntar por el nombre del comprador
+nombreComprador = input("Digíte su nombre completo: \n")
+
+#Preguntar por el número de télefono del comprador
+telefonoComprador = input("Digíte su número de teléfono: \n")
+
+#Preguntar por el correo electrónico del comprador
+correoComprador = input("Digíte su correo electrónico: \n")
+
+#preguntar por el lugar de residencia del comprador
+provinciaComprador=input("Ingrese su provincia de residencia: \n")
+
+cantonComprador=input("Ingrese su cantón de residencia: \n")
+
+distritoComprador=input("Ingrese su distrito de residencia: \n")
+
+#Imprimir la factura electrónica
+print("Factura electrónica: \n")
+
+print("Nombre completo: ", nombreComprador)
+
+if tipoCedula == 1:
+    print("Cédula Nacional: ",cedulaComprador)
+
+if tipoCedula == 2:
+    print("Cédula residente extranjero nacionalizado: ",cedulaComprador)
+
+if tipoCedula == 3:
+    print("Cédula Jurídica: ",cedulaComprador)
+
+print("Número de teléfono: ",telefonoComprador)
+print("Correo electrónico: ", correoComprador)
+print("Lugar de residencia: ")
+print("Provincia:", provinciaComprador,"Cantón:",cantonComprador,"Distrito:", distritoComprador)
+
+
+
